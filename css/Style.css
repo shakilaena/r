@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* The part of global Class */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.global-h-l{
+    margin: 0px 188px;
+    text-transform: uppercase;
+}
+.global-h-m{
+    font-size: 25px;
+    font-weight: 700;
+}
+.global-p{
+    margin: 5px 0px;
+}
+.underline{
+    display: block;
+    border: 2px solid #00000038;
+    width: 55px;
+    margin: 15px auto;
+}
+.btn{
+    width: 200px;
+    padding: 13px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* The part of header part */
+header{
+    background: #87509C;
+    width: 100%;
+    float: left;
+    color: #fff;
+}
+/* The part of main header */
+.logo-part{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+    text-align: right;
+    margin-top: 15px;
+}
+.menu-part ul{
+    margin-top: 20px;
+}
+.menu-part ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    text-align: end;
+}
+.menu-part ul li a{
+    font-family: 'Caveat', cursive;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+/* The part of header containt */
+.H-content{
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin: 100px 0;
+}
+.H-content h1{
+    font-family: 'Roboto Slab', serif;
+    text-transform: none;
+}
+.H-content button{
+    font-family: 'Montserrat', sans-serif;
+    background: #EB7D4B;
+    margin-top: 60px;
+}
+.H-content button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #0F111A;
+}
+/* The part of Service section */
+#service{
+    background: #17C2A4;
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    padding: 70px 0px;
+}
+.container{
+    font-family: 'Montserrat', sans-serif;
+}
+.S-main{
+    width: 57%;
+    margin-bottom: 60px;
+    margin: 0 auto 50px;
+}
+.S-main h2{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.S-main p{
+    margin: 5px;
+}
+.service-box{
+    width: 100%;
+    float: left;
+}
+.service-box-details{
+    width: 23%;
+    float: left;
+    margin: 50px 1%;
+}
+/* .service-box-details img{
+
+} */
+.service-box-details h3{
+    margin-top: 20px;
+}
+.service-box-details p{
+    margin-top: 20px;
+}
+/* The part of team section */
+#Team{
+    background: #E7F1F8;
+    width: 100%;
+    float: left;
+    padding: 75px 0px;
+    text-align: center;
+}
+.T-main{
+    width: 55%;
+    margin: auto;
+}
+.T-main h2{
+    font-size: 30px;
+}
+.T-main p{
+    font-size: 15px;
+}
+.team-box{
+    width: 100%;
+    float: left;
+}
+.team-box-details{
+    width: 23%;
+    float: left;
+    margin: 50px 1%;
+}
+.team-box-details img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.team-box-details h3{
+    margin-top: 10px;
+}
+.team-box-details h5{
+    color: #48D0FD;
+    margin-top: 5px;
+}
+.team-box-details p{
+    margin-top: 20px;
+}
+.social-icon{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.social-icon i{
+    font-size: 25px;
+    margin: 10px 10px;
+    background: rgba(143, 130, 130, 0.795);
+    padding: 6px;
+    border-radius: 50%;
+    color: #fff;
+}
+.fa-facebook-f{
+    padding: 6px 10px!important;
+}
+.fa-linkedin-in{
+    padding: 6px 8px!important;
+}
+/* The part of skills */
+#Skill{
+    background: #FFFFFF;
+    width: 100%;
+    float: left;
+    padding: 75px 0px;
+    text-align: center;
+}
+.Skill-main{
+    width: 100%;
+    float: left;
+}
+.Skill-main h2{
+    text-align: center;
+}
+.Skill-main p{
+    text-align: center;
+}
+.skill-box{
+    width: 100%;
+    float: left;
+}
+.skill-box-details{
+    width: 23%;
+    float: left;
+    margin: 50px 1%;
+    text-align: center;
+}
+.skill-box-details img{
+    width: 150px;
+}
+.skill-box-details h4{
+    margin-top: 30px;
+}
+/* The part of protfolio */
+#Protfolio{
+    background: #FFDD99;
+    width: 100%;
+    float: left;
+    padding: 70px 0px;
+    text-align: center;
+}
+.Protfolio-main{
+    width: 100%;
+    float: left;
+}
+.Protfolio-main h2{
+    font-size: 35px;
+}
+.Protfolio-main p{
+    font-size: 20px;
+    margin: 10px;
+}
+.flot-menu{
+    width: 100%;
+    float: left;
+    display: block;
+    padding: 5px;
+    margin: 5px 0px;
+}
+.flot-menu ul{
+display: inline-flex;
+list-style: none;
+    color: #0000;
+}
+.flot-menu ul li{
+    width: 80px;
+    padding: 6px 10px;
+    list-style: none;
+    font-weight: 500;
+    display: inline-block;
+    margin: 5px 10px;
+    text-align: center;
+}
+.flot-menu ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.all, .flot-menu ul li:hover{
+    background: #fff;
+    border-radius: 2px;
+}
+.a1, .flot-menu ul li:hover{
+    background: #3c3c3d4f;
+    border-radius: 2px;
+}
+.a2, .flot-menu ul li:hover{
+    background: #3c3c3d4f;
+    border-radius: 2px;
+}
+.a3, .flot-menu ul li:hover{
+    background: #3c3c3d4f;
+    border-radius: 2px;
+}
+.protfolio-box{
+    width: 100%;
+}
+.protfolio-box-details{
+    width: 46%;
+    float: left;
+    margin: 20px 2%;
+}
+/* .protfolio-box-details img{
+
+} */
+.protfolio-box-details h4{
+    margin-top: 10px;
+}
+.batns{
+    width: 100%;
+}
+.batns button{
+    font-family: 'Montserrat', sans-serif;
+    background: #17C2A4;
+    margin-top: 50px;
+}
+.batns button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #0F111A;
+}
+/* The part of about */
+#About{
+    background: #D74680;
+    width: 100%;
+    float: left;
+    padding: 70px 0px;
+    text-align: center;
+    color: #fff;
+}
+.A-main{
+    width: 100%;
+    float: left;
+}
+.A-main h2{
+    font-size: 30px;
+}
+.A-main p{
+    font-size: 20px;
+}
+.about-box{
+    width: 100%;
+    float: left;
+}
+.about-box-details{
+    width: 46%;
+    float: left;
+    margin: 50px 2%;
+}
+.about-box-details img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 50%;
+}
+.about-box-details h4{
+    padding-left: 140px;
+    text-align: left;
+    margin: 2px;
+}
+.about-box-details h5{
+    text-align: left;
+    padding-left: 140px;
+    margin: 4px;
+    color: #ccc92a;
+}
+.about-box-details p{
+    text-align: left;
+    margin: 19px 0px 10px 0px;
+    padding-left: 140px;
+
+}
+#Finish{
+    background: #3C5499;
+    width: 100%;
+    float: left;
+    padding: 70px 0px;
+    text-align: center;
+    color: #fff;
+}
+.Finish-main{
+    width: 100%;
+}
+.Finish-main h2{
+    font-size: 30px;
+}
+.Finish-main p{
+    font-size: 25px;
+    font-weight: 100;
+}
+.finish-box{
+    width: 100%;
+}
+/* .finish-box-details{
+
+} */
+.finish-box-details input{
+    background:#273A71;
+    color:#fff;
+    margin: 20px;
+}
+.finish-box-details input[type="text"],
+input[type="email"]{
+    height: 39px;
+    color: #fff;
+    font-size: 16px;
+    width: 320px;
+    border-radius: 5px;
+    border: none;
+}
+.finish-box-details textarea{
+    height: 130px;
+    width: 685px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: #273A71;
+}
+/* .btns{
+    
+} */
+.btns button{
+    font-family: 'Montserrat', sans-serif;
+    background: #30BAE7;
+    margin-top: 60px;
+}
+.btns button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #0F111A;
+}
+/* The part of last */
+#Last{
+    background: #344B8E;
+    width: 100%;
+    float: left;
+    padding: 30px 20px 30px 20px ;
+}
+.last-part{
+    width: 100%;
+    float: left;
+}
+.last-part ul{
+    margin-left: 50px;
+}
+.last-part ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 27px;
+    text-align: end;
+    font-weight: 300;
+    padding: 6px 8px;
+}
+.last-part ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.A, .last-part ul li:hover{
+    background-color: #48D0FD;
+    border-radius: 5px;
+}
